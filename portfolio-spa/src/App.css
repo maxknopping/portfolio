@@ -1,0 +1,77 @@
+.root {
+  background-color: black;
+  flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li{
+  color: white;
+}
+
+.header-color {
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.landing-grid {
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .7;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 725px) {
+  .banner-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .carousel-item-frontend {
+    height: 200px;
+  }
+
+  .carousel-item-other {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+.carousel-item-frontend {
+  height: 150px;
+}
+
+.carousel-item-other {
+  height: 150px;
+}
+}
+
+.social-icon {
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  transition: font-size 0.35s ease;
+}
+
+.social-icon:hover {
+  font-size: 70px;
+}

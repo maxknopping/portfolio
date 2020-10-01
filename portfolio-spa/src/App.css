@@ -3,7 +3,7 @@
   flex: 1;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li{
+h1, h2, h3, h4, h5, h6, p, a, li, span{
   color: white;
 }
 
@@ -19,9 +19,6 @@ h1, h2, h3, h4, h5, h6, p, a, li{
   background: #283c86;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100%;
-  margin: 0px;
-  padding-bottom: 30px;
 }
 
 .banner-text {
@@ -74,4 +71,31 @@ h1, h2, h3, h4, h5, h6, p, a, li{
 
 .social-icon:hover {
   font-size: 70px;
+}
+
+.card-code-icon {
+  font-size: 30px;
+  color: gray
+}
+
+.slash {
+  transform: rotate(45deg);
+}
+
+.card-link {
+  margin: 0;
+}
+
+.resume-download:hover {
+  text-decoration: none !important;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
 }

@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './pages/Home';
-import NavBar from './pages/Navbar/Navbar';
-import {Navigation, Layout, Header, Drawer, Content} from 'react-mdl';
+import {Navigation, Layout, Header, Content} from 'react-mdl';
 import Main from './pages/Main';
 import { Link } from 'react-router-dom';
 
@@ -16,14 +13,12 @@ function App() {
 
   return (
     <div>
-      <Layout fixedHeader>
+      <Layout className="landing-grid" fixedHeader>
           <Header className="header-color" style={{color: 'white'}}>
               <Navigation>
                   <Link to="/">Home</Link>
                   <Link to="/projects">Projects</Link>
-                  <Link to="/resume">Resume</Link>
                   <Link to="/about">About</Link>
-                  <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
           <Content>

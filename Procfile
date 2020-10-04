@@ -1,1 +1,1 @@
-web: cd portfolio.api && server:app
+web: cd portfolio.api && python server.py

@@ -1,0 +1,2 @@
+Corners,Surface,Edges,Centering,Autograph
+9.0,7.0,9.5,10.0,n/a

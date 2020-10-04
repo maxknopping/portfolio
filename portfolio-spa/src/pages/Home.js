@@ -11,7 +11,6 @@ function Home() {
                 <Cell style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}} col={12}>
                     <div className="banner-text">
                         <h1 style={{marginTop: '20px', fontWeight: 'normal'}}>Max Knopping</h1>
-                        <p>Sotware Developer | Student</p>
                         <hr/>
                             <Carousel>
                                 <Carousel.Item className="carousel-item-frontend">
@@ -29,7 +28,7 @@ function Home() {
                                 <Carousel.Item className="carousel-item-frontend">
                                     <h2>Frameworks</h2>
                                     <Carousel.Caption>
-                                        <h4>Angular | React Native | ASP.NET | React | Node.js | Expo | Entity Framework</h4>
+                                        <h4>Angular | React Native | ASP.NET | React | Node.js | Expo | Entity Framework | Flaskgit</h4>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item className="carousel-item-other">

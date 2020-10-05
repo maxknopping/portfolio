@@ -28,7 +28,7 @@ function Home() {
                                 <Carousel.Item className="carousel-item-frontend">
                                     <h2>Frameworks</h2>
                                     <Carousel.Caption>
-                                        <h4>Angular | React Native | ASP.NET | React | Node.js | Expo | Entity Framework | Flaskgit</h4>
+                                        <h4>Angular | React Native | ASP.NET | React | Node.js | Expo | Entity Framework | Flask</h4>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item className="carousel-item-other">

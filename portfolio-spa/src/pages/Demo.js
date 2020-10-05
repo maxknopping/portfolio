@@ -23,13 +23,17 @@ function Demo() {
     };
 
     function getGrades() {
-        setIsLoading(true);
-        api.get(`/${currentIndex}`).then(function (response) {
-            setGrades(response.data);
-            setIsLoading(false);
-        }).catch(() => setIsLoading(false));
-
-
+       if (currentIndex == 1) {
+            setGrades({corners: 9.0000, edges: 9.5045, centering: 9.5000, surface: 9.4980});
+        } else if (currentIndex == 2) {
+            setGrades({corners: 9.0000, edges: 9.5233, centering: 9.5000, surface: 9.4998});
+        } else if (currentIndex == 3) {
+            setGrades({corners: 9.0000, edges: 9.5004, centering: 9.5000, surface: 9.4993});
+        } else if (currentIndex == 4) {
+            setGrades({corners: 9.0000, edges: 9.4884, centering: 9.5000, surface: 9.4999});
+        } else if (currentIndex == 5) {
+            setGrades({corners: 9.0000, edges: 9.4913, centering: 9.5000, surface: 9.4996});
+        }
     }
 
 

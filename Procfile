@@ -1,1 +1,0 @@
-web: cd portfolio.api && python server.py

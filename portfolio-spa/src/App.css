@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6, p, a, li, span{
   .carousel-item-other {
     height: 250px;
   }
+
+  .resume {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-width: 725px) {
@@ -59,6 +63,10 @@ h1, h2, h3, h4, h5, h6, p, a, li, span{
 
 .carousel-item-other {
   height: 150px;
+}
+
+.resume {
+  margin-left: 10px;
 }
 }
 

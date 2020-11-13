@@ -39,15 +39,15 @@ function Home() {
                                 </Carousel.Item>
                             </Carousel>
                             <hr></hr>
-                            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', paddingBottom: '20px'}}>
-                                <a href="https://www.linkedin.com/in/max-knopping/" rel="noopener noreferrer" target="_blank"><i style={{marginRight: '50px'}} 
+                            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', paddingBottom: '20px', flexWrap: 'wrap'}}>
+                                <a href="https://www.linkedin.com/in/max-knopping/" rel="noopener noreferrer" target="_blank"><i
                                     className="fa fa-linkedin-square social-icon"></i></a>
                                 <a href="https://github.com/maxknopping/" rel="noopener noreferrer" target="_blank">
-                                    <i style={{marginRight: '50px'}} className="fa fa-github social-icon"></i>
+                                    <i className="fa fa-github social-icon"></i>
                                 </a>
-                                <a href={KnoppingResume} className="resume-download" rel="noopener noreferrer" style={{display: 'flex', marginRight: '50px'}} download>
-                                    <i style={{marginRight: '10px', textDecoration: 'none'}} className="fa fa-arrow-circle-down social-icon"></i>
-                                    <span className="social-icon" style={{fontSize: '20px', alignSelf: 'flex-start', display: 'inline-block'}}>Resume</span>
+                                <a href={KnoppingResume} className="resume-download" rel="noopener noreferrer" style={{display: 'flex'}} download>
+                                    <i style={{textDecoration: 'none'}} className="fa fa-arrow-circle-down social-icon"></i>
+                                    <span className="social-icon resume" style={{fontSize: '20px', alignSelf: 'flex-start', display: 'inline-block'}}>Resume</span>
                                 </a>
                                 <a style={{marginBottom: '30px'}} target="_blank" rel="noopener noreferrer" href="mailto:mknoppin@wharton.upenn.edu"><i className="fa fa-envelope social-icon"></i></a>
                             </div>
